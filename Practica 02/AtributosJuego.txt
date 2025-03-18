@@ -1,0 +1,4 @@
+TiempoExterior,
+Temperatura,
+Humedad,
+Viento

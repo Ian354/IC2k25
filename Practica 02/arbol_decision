@@ -1,0 +1,17 @@
+digraph {
+	"TiempoExterior," [label="TiempoExterior,"]
+	"Humedad," [label="Humedad,"]
+	"TiempoExterior," -> "Humedad," [label=soleado]
+	no [label=no]
+	"Humedad," -> no [label=alta]
+	si [label=si]
+	"Humedad," -> si [label=normal]
+	si [label=si]
+	"TiempoExterior," -> si [label=nublado]
+	Viento [label=Viento]
+	"TiempoExterior," -> Viento [label=lluvioso]
+	si [label=si]
+	Viento -> si [label=falso]
+	no [label=no]
+	Viento -> no [label=verdad]
+}
